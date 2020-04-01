@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a9ebaec-72b0-4ebb-b267-9103679bba60" name="Default Changelist" comment="" />
+    <list default="true" id="0a9ebaec-72b0-4ebb-b267-9103679bba60" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,7 +38,8 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../fr.dic" />
+    <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.spelling" />
   </component>
   <component name="RunManager">
     <configuration name="app.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/assets/js/app.js" working-dir="$PROJECT_DIR$/assets/js">
@@ -47,6 +51,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="2" Folder0="C:\Users\USER\Desktop" Folder1="C:\Users\USER\Desktop" CustomDictionaries="2" CustomDictionary0="C:\Users\USER\Desktop\fr_FR.dic" CustomDictionary1="C:\Users\USER\Desktop\fr.dic" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="project-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -81,6 +86,9 @@
       <workItem from="1585332750929" duration="639000" />
       <workItem from="1585337073567" duration="12240000" />
       <workItem from="1585422298476" duration="161000" />
+      <workItem from="1585751101804" duration="1427000" />
+      <workItem from="1585752647026" duration="6000" />
+      <workItem from="1585752670867" duration="39000" />
     </task>
     <servers />
   </component>
@@ -96,6 +104,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="306" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1582890138107" />
+    <state x="288" y="129" key="FileChooserDialogImpl" timestamp="1585752701948">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="288" y="129" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1585752701948" />
     <state width="1345" height="158" key="GridCell.Tab.0.bottom" timestamp="1585009701376">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -160,9 +172,9 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="201" key="GridCell.Tab.3.right/0.0.1366.728@0.0.1366.728" timestamp="1585009701359" />
-    <state x="9" y="20" width="998" height="708" key="SettingsEditor" timestamp="1585009466976">
+    <state x="9" y="20" width="998" height="708" key="SettingsEditor" timestamp="1585752707030">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="9" y="20" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585009466976" />
+    <state x="9" y="20" width="998" height="708" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1585752707030" />
   </component>
 </project>

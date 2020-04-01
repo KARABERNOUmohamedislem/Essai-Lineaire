@@ -230,11 +230,11 @@ EssaiLineaire.prototype={
 
         }
         else {
-            console.log('la cle existe deja');
+            alert('la cle existe deja');
         }
       }
       else {
-          console.log('the table is full');
+          alert('la table est remplis au maximum');
       }
   },
   suppression:async function (cle) {
@@ -312,7 +312,7 @@ EssaiLineaire.prototype={
                 }
             }
             else {
-                console.log('cle non trouve');
+                alert('cle non trouve');
             }
     }
 
@@ -320,18 +320,32 @@ EssaiLineaire.prototype={
 
 
 let fich=new EssaiLineaire([],11);
-async function as() {
 
-    await fich.insertion(16);
-    await fich.insertion(12);
-    await fich.insertion(14);
-    await fich.insertion(25);
-    await fich.insertion(22);
-    await fich.insertion(24);
-    await fich.insertion(30);
+
+let initialiseee=false;
+async function initialisation(){
+    if (!initialiseee) {
+        let tab = [];
+        let initialise = 0;
+        let nbrelemntAinserer = prompt('entrez le nombre de donnees a inserer : ');
+        while (initialise < nbrelemntAinserer) {
+            let enreg = prompt('entrez la donnee ' + (initialise + 1));
+            tab[initialise] = enreg;
+            initialise++;
+        }
+        initialise = 0;
+        while (initialise < nbrelemntAinserer) {
+            let enreg = tab[initialise];
+            await fich.insertion(enreg);
+            initialise++;
+        }
+        initialiseee = true;
+    }
+    else
+    {
+        alert("Le fichier est deja initialise");
+    }
 }
-
-let initialiseee=true;
 async function insere() {
 
         if (initialiseee) {
@@ -364,25 +378,7 @@ async function supp() {
     }
 
 }
-// async function initialisation(){
-//     let tab=[];
-//     let initialise=0;
-//     let nbrelemntAinserer=prompt('entrez le nombre de donnees a ')
-//     while (initialise<nbrelemntAinserer){
-//         let enreg=prompt('entrez l enregistrement '+(initialise+1));
-//         tab[initialise]=enreg;
-//         initialise++;
-//     }
-//     initialise=0;
-//     this.alloc_bloc();
-//     this.aff_entete(1,0);
-//     while (initialise<nbrelemntAinserer){
-//         let enreg=tab[initialise];
-//         await this.insertion(initialise+1,enreg);
-//         initialise++;
-//     }
-//
-// }
+
 
 function getspeed(){
     speed=(document.getElementById('speed').value)/100;
@@ -390,7 +386,8 @@ function getspeed(){
 }
 
 getspeed();
-as();
+
+document.getElementById('initialiser').onclick=initialisation;
 document.getElementById('inserer').onclick=insere;
 document.getElementById('rechercher').onclick=rech;
 document.getElementById('supprimer').onclick=supp;
